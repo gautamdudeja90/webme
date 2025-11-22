@@ -1,7 +1,7 @@
 ---
 type: PostLayout
 title: How to Structure and Organize a Next.js Project 🗂️
-colors: colors-a
+colors: colors-b
 date: '2024-06-03'
 author: content/data/team/doris-soto.json
 excerpt: >-
