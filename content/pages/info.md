@@ -7,10 +7,15 @@ sections:
     colors: colors-f
     backgroundSize: full
     text: >+
-      # Hey I’m a developer. I’ve been born and raised in the world, and that’s
-      also where I’m based. I’m currently a free agent, ex-this, ex-that,
-      ex-super big name. When I’m not coding, writing or creating, I eat
-      cereals. I have a dog, check her out [@mygod](https://www.stackbit.com/).
+      # Gautam Dudeja
+      
+      I'm a software engineer specializing in building exceptional digital
+      experiences with a focus on AI, ML, and Data Engineering.
+      
+      With over 11 years of experience, I've worked on a wide range of projects
+      from real-time analytics platforms to machine learning systems, helping
+      organizations leverage their data to gain insights and build intelligent
+      applications.
 
     media:
       type: ImageBlock
@@ -173,21 +178,37 @@ sections:
     subtitle: 'Skills:'
     items:
       - type: Label
-        label: 'WEB 1, 2, 3'
+        label: Python
       - type: Label
-        label: React
+        label: Apache Spark
       - type: Label
-        label: Microsoft Office
+        label: Apache Kafka
       - type: Label
-        label: Next.js
+        label: Apache Flink
       - type: Label
-        label: Netlify
+        label: Apache Iceberg
       - type: Label
-        label: Pancakes
+        label: TensorFlow
       - type: Label
-        label: C++
+        label: PyTorch
       - type: Label
-        label: Swift
+        label: AWS
+      - type: Label
+        label: Kubernetes
+      - type: Label
+        label: Docker
+      - type: Label
+        label: TypeScript
+      - type: Label
+        label: SQL
+      - type: Label
+        label: Scala
+      - type: Label
+        label: Java
+      - type: Label
+        label: MLflow
+      - type: Label
+        label: Terraform
   - type: DividerSection
     styles:
       self:
@@ -222,42 +243,46 @@ sections:
       - type: FeaturedItem
         subtitle: 'Experience:'
         text: |-
-          **Current**
+          **Aug 2021 – Present**
 
-          * freelance @freelance.me
+          * Senior Software Engineer @ Apple, San Francisco, CA
+          
+          I joined Apple in August 2021 to build a standardized data ingestion framework using Spark, Flink, Beam, and Iceberg, simplifying data workflows across teams. I developed monitoring with Grafana and Prometheus for clear pipeline metrics and led the implementation of a cross-platform catalog that supports Kafka, Hive, and S3. I also integrated DataHub to establish metadata governance, and optimized ML pipelines (XGBoost, SMOTE) with Spark and SageMaker to streamline analytics workloads.
 
-          **2018-2021**
+          **Sep 2019 – Aug 2021**
 
-          * fullstack at this startup
+          * Senior Software Engineer @ PayPal, San Francisco, CA
+          
+          At PayPal, I created a data pipeline to manage event streams in a GCP-based data lake using DataFlow. I introduced schema discovery and management services to maintain consistent data models across multiple business units. I built a Docker + AWS analytics environment for standardized Python/R libraries, and contributed to PayPal's recommendation system by handling both offline model training and real-time serving.
 
-          **2015**
+          **Jan 2017 – Sep 2019**
 
-          * senior front-end at this place
-
-          **2013**
-
-          * intern developer at a big company
-
-          **2011**
-
-          * flipping burgers
+          * Data Engineer @ Nielsen, Chicago, IL
+          
+          While at Nielsen, I designed a scalable data ingestion platform with NiFi, Kafka, and Spark following a Lambda architecture for batch and streaming workloads. I focused on deduplication and identity resolution using Spark GraphFrames and TF-IDF, merging multi-source records accurately. This supported real-time audience pipelines and Elasticsearch-based targeting. I also implemented ML-Ops frameworks to support model training and deployment.
         styles:
           self:
             textAlign: left
       - type: FeaturedItem
         subtitle: 'Education:'
         text: |-
-          **2015-2018**
+          **Jan 2021 – May 2023**
 
-          * ba computer sciense at a semi fancy school
+          * Master of Science in Analytics
+          * Major in Analytics
+          * Georgia Institute of Technology
 
-          **2014**
+          **Aug 2012 – Jul 2014**
 
-          * react certificate somewhere
+          * Master of Science in Computer Science & Engineering
+          * GPA: 4.00
+          * Auburn University
 
-          **2011**
+          **Aug 2008 – May 2012**
 
-          * my highschool
+          * Bachelor of Science in Electrical & Computer Engineering
+          * GPA: 3.70
+          * Auburn University
         styles:
           self:
             textAlign: left

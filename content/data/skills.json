@@ -1,0 +1,46 @@
+{
+  "type": "Skills",
+  "categories": [
+    {
+      "category": "Data Engineering",
+      "items": [
+        { "name": "Apache Spark", "level": 95 },
+        { "name": "Apache Flink", "level": 90 },
+        { "name": "Apache Kafka", "level": 88 },
+        { "name": "Trino/Presto", "level": 85 },
+        { "name": "Apache Iceberg", "level": 90 }
+      ]
+    },
+    {
+      "category": "Machine Learning",
+      "items": [
+        { "name": "TensorFlow", "level": 85 },
+        { "name": "PyTorch", "level": 80 },
+        { "name": "Scikit-learn", "level": 90 },
+        { "name": "MLflow", "level": 85 },
+        { "name": "Hugging Face", "level": 80 }
+      ]
+    },
+    {
+      "category": "Languages",
+      "items": [
+        { "name": "Python", "level": 95 },
+        { "name": "Scala", "level": 85 },
+        { "name": "Java", "level": 80 },
+        { "name": "TypeScript", "level": 90 },
+        { "name": "SQL", "level": 92 }
+      ]
+    },
+    {
+      "category": "Cloud & DevOps",
+      "items": [
+        { "name": "AWS", "level": 90 },
+        { "name": "Kubernetes", "level": 85 },
+        { "name": "Docker", "level": 92 },
+        { "name": "Terraform", "level": 80 },
+        { "name": "CI/CD", "level": 88 }
+      ]
+    }
+  ]
+}
+

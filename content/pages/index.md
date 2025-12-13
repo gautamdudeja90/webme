@@ -7,12 +7,11 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      I’m a developer, digital artist, consultant and a bunch of other
-      impressive titles and buzz words.
+      Software Engineer specializing in AI, ML, and Data Engineering
     subtitle: >-
-      This is my info—I’m sharing it all this with ya’ll to impress you with all
-      the hard work I’ve done in the past few years. Once you’re impressed, you
-      can continue to scroll down to see more details and credentials about me.
+      Building exceptional digital experiences with over 11 years of experience
+      in real-time analytics platforms, machine learning systems, and data engineering.
+      Helping organizations leverage their data to gain insights and build intelligent applications.
     styles:
       self:
         height: auto
@@ -44,9 +43,9 @@ sections:
     showReadMoreLink: true
     variant: variant-b
     projects:
-      - content/pages/projects/project-two.md
-      - content/pages/projects/project-three.md
-      - content/pages/projects/project-one.md
+      - content/pages/projects/real-time-analytics.md
+      - content/pages/projects/ml-pipeline.md
+      - content/pages/projects/data-lake.md
     styles:
       self:
         height: auto
@@ -63,15 +62,15 @@ sections:
     colors: colors-f
     variant: variant-d
     subtitle: Featured Posts
-    showFeaturedImage: false
+    showFeaturedImage: true
     actions:
       - type: Link
         label: See all posts
         url: /blog
     posts:
-      - content/pages/blog/post-six.md
-      - content/pages/blog/post-four.md
-      - content/pages/blog/post-three.md
+      - content/pages/blog/optimizing-spark-jobs.md
+      - content/pages/blog/introduction-to-llms.md
+      - content/pages/blog/data-lake-design.md
     showDate: true
     showExcerpt: true
     showReadMoreLink: true
