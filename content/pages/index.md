@@ -7,11 +7,10 @@ sections:
     colors: colors-f
     backgroundSize: full
     title: >-
-      Software Engineer specializing in AI, ML, and Data Engineering
+      Senior Software/Data Engineer at Apple
     subtitle: >-
-      Building exceptional digital experiences with over 11 years of experience
-      in real-time analytics platforms, machine learning systems, and data engineering.
-      Helping organizations leverage their data to gain insights and build intelligent applications.
+      Building petabyte-scale data platforms, real-time ML pipelines, and distributed AI systems.
+      Over 13 years of experience in data engineering, machine learning, and distributed systems.
     styles:
       self:
         height: auto

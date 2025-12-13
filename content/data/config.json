@@ -5,7 +5,7 @@
         "type": "Header",
         "headerVariant": "variant-c",
         "isSticky": false,
-        "title": "Personal",
+        "title": "Gautam Dudeja",
         "isTitleVisible": true,
         "primaryLinks": [
             {
@@ -27,17 +27,17 @@
         "socialLinks": [
             {
                 "type": "Social",
-                "altText": "Twitter",
-                "label": "Twitter",
-                "url": "https://twitter.com/netlify",
-                "icon": "twitter"
+                "altText": "GitHub",
+                "label": "GitHub",
+                "url": "https://github.com/gautamdudeja",
+                "icon": "github"
             },
             {
                 "type": "Social",
-                "altText": "GitHub",
-                "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "icon": "github"
+                "altText": "LinkedIn",
+                "label": "LinkedIn",
+                "url": "https://linkedin.com/in/gautamdudeja",
+                "icon": "linkedin"
             }
         ],
         "styles": {
@@ -58,7 +58,7 @@
             {
                 "type": "Link",
                 "label": "Contact",
-                "url": "mailto:dudejagautam.@gmail.com",
+                "url": "mailto:dudejagautam@gmail.com",
                 "altText": ""
             },
             {
@@ -70,21 +70,19 @@
             {
                 "type": "Link",
                 "label": "GitHub",
-                "url": "https://github.com/netlify-templates",
-                "altText": "Netlify templates"
+                "url": "https://github.com/gautamdudeja",
+                "altText": "GitHub"
             }
         ],
         "contacts": {
             "type": "ContactBlock",
             "title": "Contact details",
-            "phoneNumber": "850-123-5021",
-            "phoneAltText": "My phone number",
-            "email": "dudejagautam.@gmail.com",
-            "emailAltText": "My email",
-            "address": "312 Lovely Street, Brooklyn, NY, 123456",
-            "addressAltText": "My address"
+            "email": "dudejagautam@gmail.com",
+            "emailAltText": "Email",
+            "address": "San Francisco, CA",
+            "addressAltText": "Location"
         },
-        "copyrightText": "Powered by [Netlify](https://www.netlify.com/)",
+        "copyrightText": "© 2024 Gautam Dudeja",
         "styles": {
             "self": {
                 "width": "narrow",

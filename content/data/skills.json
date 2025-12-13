@@ -2,43 +2,67 @@
   "type": "Skills",
   "categories": [
     {
-      "category": "Data Engineering",
-      "items": [
-        { "name": "Apache Spark", "level": 95 },
-        { "name": "Apache Flink", "level": 90 },
-        { "name": "Apache Kafka", "level": 88 },
-        { "name": "Trino/Presto", "level": 85 },
-        { "name": "Apache Iceberg", "level": 90 }
-      ]
-    },
-    {
-      "category": "Machine Learning",
-      "items": [
-        { "name": "TensorFlow", "level": 85 },
-        { "name": "PyTorch", "level": 80 },
-        { "name": "Scikit-learn", "level": 90 },
-        { "name": "MLflow", "level": 85 },
-        { "name": "Hugging Face", "level": 80 }
-      ]
-    },
-    {
       "category": "Languages",
       "items": [
         { "name": "Python", "level": 95 },
-        { "name": "Scala", "level": 85 },
-        { "name": "Java", "level": 80 },
-        { "name": "TypeScript", "level": 90 },
-        { "name": "SQL", "level": 92 }
+        { "name": "Java", "level": 90 },
+        { "name": "Scala", "level": 90 },
+        { "name": "SQL", "level": 95 },
+        { "name": "R", "level": 85 }
       ]
     },
     {
-      "category": "Cloud & DevOps",
+      "category": "Distributed Systems",
       "items": [
-        { "name": "AWS", "level": 90 },
-        { "name": "Kubernetes", "level": 85 },
-        { "name": "Docker", "level": 92 },
-        { "name": "Terraform", "level": 80 },
-        { "name": "CI/CD", "level": 88 }
+        { "name": "Apache Spark", "level": 95 },
+        { "name": "Apache Flink", "level": 95 },
+        { "name": "Apache Kafka", "level": 90 },
+        { "name": "Ray (Core, Train, Serve)", "level": 90 },
+        { "name": "Presto/Trino", "level": 85 },
+        { "name": "Apache Druid", "level": 85 },
+        { "name": "Airflow", "level": 90 },
+        { "name": "Hadoop MapReduce", "level": 85 }
+      ]
+    },
+    {
+      "category": "Data Technologies",
+      "items": [
+        { "name": "Apache Iceberg", "level": 95 },
+        { "name": "Hive", "level": 90 },
+        { "name": "Elasticsearch", "level": 90 },
+        { "name": "DataHub", "level": 90 },
+        { "name": "HBase", "level": 85 },
+        { "name": "Cassandra", "level": 85 },
+        { "name": "DynamoDB", "level": 85 },
+        { "name": "S3", "level": 95 },
+        { "name": "HDFS", "level": 85 },
+        { "name": "Neo4j", "level": 80 }
+      ]
+    },
+    {
+      "category": "Machine Learning & AI",
+      "items": [
+        { "name": "PyTorch", "level": 95 },
+        { "name": "MLX (Apple Silicon)", "level": 90 },
+        { "name": "scikit-learn", "level": 95 },
+        { "name": "XGBoost", "level": 90 },
+        { "name": "Ray RLlib", "level": 85 },
+        { "name": "Reinforcement Learning (RLHF/GRPO)", "level": 85 },
+        { "name": "LoRA/QLoRA Fine-tuning", "level": 90 },
+        { "name": "LangChain", "level": 90 },
+        { "name": "Vector DBs (Qdrant, FAISS)", "level": 85 },
+        { "name": "Kubeflow (MLOps)", "level": 85 },
+        { "name": "SciPy", "level": 90 }
+      ]
+    },
+    {
+      "category": "Cloud Platforms",
+      "items": [
+        { "name": "AWS (EMR, EKS, EC2, Lambda, S3, RDS)", "level": 95 },
+        { "name": "Google Cloud (BigQuery, Dataflow, GKE)", "level": 90 },
+        { "name": "Kubernetes", "level": 90 },
+        { "name": "Docker", "level": 95 },
+        { "name": "CloudFormation/CDK", "level": 85 }
       ]
     }
   ]
