@@ -1,6 +1,6 @@
 ---
 type: PostLayout
-title: Disaggregated Inference on Apple Silicon: NPU prefill and GPU decode
+title: 'Disaggregated Inference on Apple Silicon: NPU prefill and GPU decode'
 colors: colors-b
 date: '2024-08-25'
 excerpt: >-
@@ -147,10 +147,12 @@ The solution? Use the `scaled_dot_product_attention_sliced_q` MIL graph pass (wi
 After all this work, is it even worth it? The benchmarks show that each has its strengths:
 
 **Prefill-heavy scenarios (448 input tokens, 64 output tokens):**
+
 - Core ML (ANE) significantly reduces Time To First Token (TTFT)
 - MLX (GPU) is faster for Time Per Output Token (TPOT)
 
 **Decode-heavy scenarios (64 input tokens, 448 output tokens):**
+
 - MLX (GPU) consistently outperforms in TPOT
 - Core ML (ANE) still helps with TTFT but decode is slower
 
@@ -177,4 +179,3 @@ This disaggregated inference approach opens up some exciting possibilities. I'm 
 I'm also planning to expand support for more model architectures and eventually open-source the engine to get community feedback and collaboration.
 
 Running LLMs efficiently on Apple Silicon is definitely possible, but it requires understanding the quirks of both MLX and Core ML, and being willing to combine them in creative ways. The Yetter Inference Engine is my attempt to make this easier for everyone.
-
