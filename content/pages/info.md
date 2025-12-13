@@ -19,7 +19,7 @@ sections:
 
     media:
       type: ImageBlock
-      url: /images/about.jpg
+      url: /images/gautam.jpg
       altText: Hero image
     styles:
       self:

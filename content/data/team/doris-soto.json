@@ -4,7 +4,7 @@
     "lastName": "Soto",
     "image": {
         "type": "ImageBlock",
-        "url": "/images/about.jpg",
+        "url": "/images/gautam.jpg",
         "altText": "Doris Soto photo"
     }
 }
