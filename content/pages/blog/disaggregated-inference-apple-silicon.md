@@ -7,7 +7,7 @@ excerpt: >-
   How I built an efficient LLM inference engine for Apple Silicon by combining the Neural Engine and GPU, plus all the undocumented challenges I discovered along the way.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image6.jpg
+  url: /images/mlx.jpg
   altText: Post thumbnail image
 media:
   type: ImageBlock

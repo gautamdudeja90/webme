@@ -7,7 +7,7 @@ excerpt: >-
   Learn how to optimize your Apache Spark jobs for processing petabytes of data efficiently.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image1.jpg
+  url: /images/spark.jpg
   altText: Post thumbnail image
 media:
   type: ImageBlock
@@ -145,4 +145,3 @@ Always monitor your Spark application using the Spark UI. Look for:
 ## Conclusion
 
 Optimizing Spark jobs is an iterative process. Start with understanding your data and query patterns, then apply these techniques systematically while monitoring performance.
-

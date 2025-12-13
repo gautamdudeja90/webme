@@ -7,7 +7,7 @@ excerpt: >-
   Best practices for designing a scalable and maintainable data lake architecture using open-source technologies.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image3.jpg
+  url: /images/datalake.jpg
   altText: Post thumbnail image
 media:
   type: ImageBlock
@@ -170,4 +170,3 @@ A modern data lake architecture might include:
 ## Conclusion
 
 Building a modern data lake requires careful consideration of table formats, storage organization, processing engines, and metadata management. By adopting open standards and focusing on maintainability, you can create a data lake that delivers value for years to come.
-

@@ -4,6 +4,7 @@ import dayjs from 'dayjs';
 import { Action, Link } from '@/components/atoms';
 import ImageBlock from '@/components/molecules/ImageBlock';
 import ArrowUpRightIcon from '@/components/svgs/arrow-up-right';
+import { CardBody, CardContainer, CardItem } from '@/components/ui/3d-card';
 import { mapStylesToClassNames as mapStyles } from '@/utils/map-styles-to-class-names';
 import Section from '../Section';
 
@@ -76,30 +77,54 @@ function ProjectGrid(props) {
             })}
         >
             {projects.map((project, index) => (
-                <Link key={index} href={project} className="block max-w-3xl pb-10 border-b border-current group">
-                    {showFeaturedImage && project.featuredImage && (
-                        <div className="w-full mb-6 overflow-hidden aspect-3/2">
-                            <ImageBlock
-                                {...project.featuredImage}
-                                className="object-cover w-full h-full transition-transform duration-500 group-hover:scale-105"
-                            />
-                        </div>
-                    )}
-                    {showDate && project.date && (
-                        <div className="mb-3">
-                            <ProjectDate date={project.date} />
-                        </div>
-                    )}
-                    <TitleTag className="text-3xl sm:text-4xl">{project.title}</TitleTag>
-                    {showDescription && project.description && <p className="mt-5 text-lg">{project.description}</p>}
-                    {showReadMoreLink && (
-                        <div className="mt-8">
-                            <span className="inline-flex text-xl transition rounded-full p-4 border-2 border-current group-hover:bottom-shadow-6 group-hover:-translate-y-1.5">
-                                <ArrowUpRightIcon className="fill-current w-icon h-icon" />
-                            </span>
-                        </div>
-                    )}
-                </Link>
+                <CardContainer
+                    key={index}
+                    containerClassName="py-0 w-full"
+                    className="w-full"
+                >
+                    <Link href={project} className="block w-full">
+                        <CardBody className="bg-gray-50 relative group/card dark:hover:shadow-2xl dark:hover:shadow-emerald-500/10 dark:bg-black dark:border-white/20 border-black/10 w-full h-auto rounded-xl p-6 border hover:shadow-xl transition-shadow">
+                            {showFeaturedImage && project.featuredImage && (
+                                <CardItem translateZ="100" className="w-full mb-6">
+                                    <div className="w-full overflow-hidden aspect-3/2 rounded-lg">
+                                        <ImageBlock
+                                            {...project.featuredImage}
+                                            className="object-cover w-full h-full transition-transform duration-500 group-hover/card:scale-105"
+                                        />
+                                    </div>
+                                </CardItem>
+                            )}
+                            {showDate && project.date && (
+                                <CardItem translateZ="40" className="mb-3">
+                                    <ProjectDate date={project.date} />
+                                </CardItem>
+                            )}
+                            <CardItem
+                                translateZ="50"
+                                className="text-xl font-bold text-neutral-600 dark:text-white mb-2"
+                            >
+                                <TitleTag className="text-3xl sm:text-4xl">{project.title}</TitleTag>
+                            </CardItem>
+                            {showDescription && project.description && (
+                                <CardItem
+                                    translateZ="60"
+                                    className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
+                                >
+                                    <p className="mt-5 text-lg">{project.description}</p>
+                                </CardItem>
+                            )}
+                            {showReadMoreLink && (
+                                <CardItem
+                                    translateZ={20}
+                                    className="mt-6 flex items-center gap-2 text-sm font-medium text-neutral-600 dark:text-neutral-300"
+                                >
+                                    Read more
+                                    <ArrowUpRightIcon className="fill-current w-4 h-4" />
+                                </CardItem>
+                            )}
+                        </CardBody>
+                    </Link>
+                </CardContainer>
             ))}
         </div>
     );

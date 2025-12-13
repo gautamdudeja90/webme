@@ -33,4 +33,3 @@ This project is a complete ML pipeline orchestration system that scales to handl
 ## Technical Details
 
 The system uses Airflow for orchestrating the entire ML workflow, from data extraction to model deployment. MLflow is used for experiment tracking and model registry. The training jobs are executed on a Kubernetes cluster for scalability.
-

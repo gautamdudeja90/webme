@@ -36,4 +36,3 @@ This project implements a modern cloud-native data lake architecture using Apach
 ## Technical Details
 
 The data lake is built using Apache Iceberg as the table format, which provides ACID transactions, schema evolution, and time travel capabilities. Apache Spark is used for data processing, and the entire system is deployed on cloud infrastructure.
-

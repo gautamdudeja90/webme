@@ -7,7 +7,7 @@ excerpt: >-
   An engineering-focused introduction to large language models and how they can be leveraged in applications.
 featuredImage:
   type: ImageBlock
-  url: /images/featured-Image2.jpg
+  url: /images/LLM.jpg
   altText: Post thumbnail image
 media:
   type: ImageBlock
