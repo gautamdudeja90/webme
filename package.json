@@ -25,14 +25,15 @@
         "@stackbit/types": "^2.1.11",
         "@tailwindcss/typography": "^0.5.16",
         "@types/glob": "^8.1.0",
-        "@types/react": "^19.0.1",
+        "@types/node": "25.5.0",
+        "@types/react": "19.2.14",
         "@types/react-syntax-highlighter": "^15.5.13",
         "eslint": "^9.21.0",
         "eslint-config-next": "^15.2.0",
         "js-yaml": "^4.1.0",
         "postcss": "^8.5.3",
         "prettier": "^3.5.2",
-        "typescript": "^5.8.2"
+        "typescript": "5.9.3"
     },
     "license": "MIT"
 }
