@@ -2,10 +2,12 @@ import * as React from 'react';
 import { PrismLight as SyntaxHighlighter } from 'react-syntax-highlighter';
 import js from 'react-syntax-highlighter/dist/cjs/languages/prism/javascript';
 import css from 'react-syntax-highlighter/dist/cjs/languages/prism/css';
-import { funky } from 'react-syntax-highlighter/dist/cjs/styles/prism';
+import python from 'react-syntax-highlighter/dist/cjs/languages/prism/python';
+import { dark } from 'react-syntax-highlighter/dist/cjs/styles/prism';
 
 SyntaxHighlighter.registerLanguage('javascript', js);
 SyntaxHighlighter.registerLanguage('css', css);
+SyntaxHighlighter.registerLanguage('python', python);
 
 const CodeBlock = ({ className, children }) => {
     let lang = 'text'; // default monospaced text
@@ -13,7 +15,7 @@ const CodeBlock = ({ className, children }) => {
         lang = className.replace('lang-', '');
     }
     return (
-        <SyntaxHighlighter language={lang} style={funky} wrapLongLines>
+        <SyntaxHighlighter language={lang} style={dark} wrapLongLines>
             {children}
         </SyntaxHighlighter>
     );
