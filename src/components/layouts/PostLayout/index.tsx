@@ -1,12 +1,12 @@
 import classNames from 'classnames';
 import dayjs from 'dayjs';
-import Markdown from 'markdown-to-jsx';
 import * as React from 'react';
 
 import { DynamicComponent } from '@/components/components-registry';
 import { PageComponentProps, PostLayout } from '@/types';
-import HighlightedPreBlock from '@/utils/highlighted-markdown';
 import BaseLayout from '../BaseLayout';
+import PostMarkdown from './PostMarkdown';
+import ReadingProgress from './ReadingProgress';
 
 type ComponentProps = PageComponentProps & PostLayout;
 
@@ -18,6 +18,7 @@ const Component: React.FC<ComponentProps> = (props) => {
     return (
         <BaseLayout {...props}>
             <article className="px-4 py-14 lg:py-20">
+                <ReadingProgress />
                 <header className="max-w-5xl mx-auto mb-10 sm:mb-14">
                     <div className="mb-6 uppercase">
                         <time dateTime={dateTimeAttr}>{formattedDate}</time>
@@ -36,12 +37,10 @@ const Component: React.FC<ComponentProps> = (props) => {
                     </figure>
                 )}
                 {markdownContent && (
-                    <Markdown
-                        options={{ forceBlock: true, overrides: { pre: HighlightedPreBlock } }}
-                        className="max-w-3xl mx-auto prose sm:prose-lg"
-                    >
-                        {markdownContent}
-                    </Markdown>
+                    <PostMarkdown
+                        content={markdownContent}
+                        className="max-w-2xl mx-auto prose prose-lg prose-ebook"
+                    />
                 )}
             </article>
             {bottomSections?.map((section, index) => {
